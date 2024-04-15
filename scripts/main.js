@@ -19,10 +19,6 @@ const departments = {
                 title: "Branding Agent",
                 description: "Een Branding Agent is verantwoordelijk voor het vaststellen en handhaven van een consistente merkafbeelding en identiteit op verschillende marketingkanalen. Ze ontwikkelen richtlijnen voor het merk, positionering en berichtenstrategieën. Ze houden toezicht op productlanceringen, reclamecampagnes en inspanningen op het gebied van merkcommunicatie. Ze volgen de prestaties van het merk, voeren marktonderzoek uit en doen aanbevelingen om de merkperceptie en merkwaarde te verbeteren."
             },
-            {
-                title: "Marktonderzoeksanalist",
-                description: "Een marktonderzoeksanalist voert diepgaand onderzoek uit om gegevens te verzamelen en te analyseren over markttrends, consumentenvoorkeuren en concurrentieactiviteiten. Ze ontwerpen en voeren enquêtes, focusgroepen en interviews uit om relevante informatie te verzamelen. Ze interpreteren gegevens, genereren inzichten en bereiden rapporten voor met bruikbare aanbevelingen. Ze helpen bedrijven geïnformeerde beslissingen te nemen over productontwikkeling, doelmarkten, prijsstrategieën en marketingcampagnes."
-            },
         ],
     },
     sales: {
@@ -123,10 +119,10 @@ switch (departmentChoice) {
 
 // // Opdracht 3a
 //
-// const jobChoice = prompt("Je koos marketing. Over welke functie wil je meer weten? Voer een getal tussen 0 en 3 in. "
+// const jobChoice = prompt("Je koos marketing. Over welke functie wil je meer weten? Voer een getal in. Kies uit 0, 1, 2 of 3. "
 //     + " - 0:" + departments.marketing.jobs[0].title
 //     + " - 1:" + departments.marketing.jobs[1].title
-//     + " - 2:" + departments.marketing.jobs[2].title +
+//     + " - 2:" + departments.marketing.jobs[2].title
 //     + " - 3:" + departments.marketing.jobs[3].title);
 //
 // console.log(jobChoice);
